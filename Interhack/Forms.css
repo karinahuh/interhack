@@ -1,0 +1,145 @@
+html{
+    background-color:  #262B32;
+}
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+head{
+    align-content: center;
+}
+
+hr {
+    border-top: 3px solid;
+    border-color: #49525e;
+    margin-left: 45%;
+    margin-right: 45%;
+    border-radius: 2px;
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 30em;
+    height: 8.4em;
+}
+body {
+    text-align: center;
+    color: #47BBB3;
+}
+.nusp{
+    margin-top: 0.5em;
+    width: 30em;
+    height: 3.5em;
+    text-align: center;
+    font-size: 1em;
+    color: #F7FFF7;
+}
+p{
+    font-size: 2.5em;
+    font-family: 'Livvic', sans-serif;
+    color: #F7FFF7;
+}
+.btn1{
+    background-color: #262B32;
+    border: 2px solid#FFE66D;
+    border-radius: 5px;
+    color: #F7FFF7;
+    padding: 1.5em 3.499em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.25em;
+    font-family: 'Livvic', sans-serif;
+    margin: 0;
+
+    transition-duration: 0.4s;
+}
+.btn1:hover{
+    background-color: #FFE66D;;
+    font-family: 'Livvic', sans-serif;
+    color: #262B32;
+}
+.darkmode{
+    background-Color:#FFE66D;;
+    color: #262B32;
+}
+h3{
+    font-size: 1.75em;
+    text-align: center;
+    font-family: 'Livvic', sans-serif;
+}
+#aa{
+    margin: 1em;
+}
+
+  /* Reset Select */
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: #FFE66D;
+    background-image: none;
+    font-size: 1em;
+    font-family: 'Livvic', sans-serif;
+  }
+  /* Remove IE arrow */
+  /*select::-ms-expand {
+    display: none;
+  }*/
+  /* Custom Select */
+  .select {
+    left: 36.9vw;
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    line-height: 3;
+    /*background: #2c3e50;*/
+    overflow: hidden;
+    /*border-radius: .25em;*/
+    text-align: center;
+    font-family: 'Livvic', sans-serif;
+  }
+  select {
+    flex: 1;
+    padding: 0 .5em;
+    color: #262B32;
+    cursor: pointer;
+  }
+  /* Arrow */
+  .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #FFE66D;
+    /*border-radius: .25em;*/
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+  }
+  /* Transition */
+  .select:hover::after {
+    color: #262B32;
+  }
+  
+.submit{
+    background-color: #FFE66D;
+    border: 2px;
+    border-radius: 5px;
+    padding: 1em 2.333em;
+    font-family: 'Livvic', sans-serif;
+    font-family: 'Livvic', sans-serif;
+}

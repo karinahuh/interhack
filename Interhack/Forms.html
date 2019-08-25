@@ -1,0 +1,88 @@
+<meta charset="UTF-8">
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>No Food Waste</title>
+    <link rel="stylesheet" href="Forms.css">
+    <img src="logo.png" alt="bulbasaur"><br>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>No Food Waste</h1>
+    
+    <form>
+        <input class="nusp" type="text" name="Nusp" placeholder="Nº USP" style="background-color: #262B32; border: none; border-bottom: 3px solid;
+        border-color: #49525e;
+        border-radius: 2px;
+        margin-bottom: 20px;
+        margin-top: 20px;">
+        <p>Selecione os dias da semana que você almoça no bandejão</p>
+        <h3>Almoço:</h3><br>
+        <div>
+            <button type="button" onclick="trocaCor(this)" class="btn1">Segunda</button>
+            <button type="button" onclick="trocaCor(this)" class="btn1">Terça</button>
+            <button type="button" onclick="trocaCor(this)" class="btn1">Quarta</button>
+            <button type="button" onclick="trocaCor(this)" class="btn1">Quinta</button>
+            <button type="button" onclick="trocaCor(this)" class="btn1">Sexta</button>
+        </div>
+
+        <br>
+        <h3>Jantar:</h3><br>
+        <div>
+            <button type="button"  onclick="trocaCor(this)"class="btn1">Segunda</button>
+            <button type="button" onclick="trocaCor(this)" class="btn1">Terça</button>
+            <button type="button" onclick="trocaCor(this)" class="btn1">Quarta</button>
+            <button type="button" onclick="trocaCor(this)" class="btn1">Quinta</button>
+            <button type="button" onclick="trocaCor(this)" class="btn1">Sexta</button>
+        </div><br>
+
+        <div>
+            <p>Selecione sua preferência para cada alimento:</p><br>
+            <h3>Carne :</h3><br>
+            <div class="select">
+                    <select name="slct" id="slct">
+                      <option selected disabled>Escolha uma Opção</option>
+                      <option value="1">Gosto</option>
+                      <option value="2">Não Gosto</option>
+                      <option value="3">Não Como</option>
+                    </select>
+            </div>
+            <h3>Frango :</h3><br>
+            <div class="select">
+                    <select name="slct" id="slct">
+                      <option selected disabled>Escolha uma Opção</option>
+                      <option value="1">Gosto</option>
+                      <option value="2">Não Gosto</option>
+                      <option value="3">Não Como</option>
+                    </select>
+            </div>
+            <h3>Peixe :</h3><br>
+            <div class="select">
+                    <select name="slct" id="slct">
+                      <option selected disabled>Escolha uma Opção</option>
+                      <option value="1">Gosto</option>
+                      <option value="2">Não Gosto</option>
+                      <option value="3">Não Como</option>
+                    </select>
+            </div>
+            <h3>PVT :</h3><br>
+            <div class="select">
+                    <select name="slct" id="slct">
+                      <option selected disabled>Escolha uma Opção</option>
+                      <option value="1">Gosto</option>
+                      <option value="2">Não Gosto</option>
+                      <option value="3">Não Como</option>
+                    </select>
+            </div>
+        </div><br>
+
+        <input type="submit" value="Enviar" class="submit"> 
+
+    </form>
+    <script src="Forms.js"></script>
+</body>
+
+</html>
